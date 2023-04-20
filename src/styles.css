@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header {
+  background-color: rgb(204, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: white;
+  padding-left: 0.8em;
+  justify-content: space-between;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.home-container h1,
+.contacto-container h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+button {
+  background-color: rgb(204, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(204, 0, 0);
+  border: 1px solid rgb(204, 0, 0);
+}
+
+.active {
+  color: yellow;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.pizza-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pizza-card {
+  padding-top: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  column-gap: 0em;
+  flex-basis: 33.333333%;
+}
+
+.pizza-card img {
+  width: 60%;
+  border-radius: 4px;
+}
+
+.btn-container {
+  display: flex;
+  gap: 0.3em;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+}
+
+.cart-container {
+  display: flex;
+  justify-self: flex-end;
+  align-items: center;
+  gap: 0.5em;
+  padding-right: 0.8em;
+  width: 25%;
+}
+
+.cart-container img {
+  width: 8%;
+  display: flex;
+  align-items: center;
+}
+
+.pizza-icon-container {
+  width: 20%;
+  display: flex;
+}
+
+.pizza-icon-container img {
+  width: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.ver-mas-container {
+  display: flex;
+  gap: 2em;
+}
+
+.ver-mas-img-container {
+  padding-top: 1em;
+  padding-left: 1em;
+  width: 40%;
+}
+.ver-mas-img-container img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.ver-mas-info {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.pedido-container {
+  display: flex;
+  gap: 1em;
+  padding-top: 0.8em;
+  padding-left: 1em;
+}
+
+.pedido-container-info {
+  display: flex;
+  gap: 1em;
+  padding-top: 0.8em;
+  align-items: flex-start;
+}
+
+.pedido-container img {
+  width: 10%;
+  border-radius: 4px;
+}
+
+.pedido-total {
+  padding-left: 1em;
+}
